@@ -1,13 +1,51 @@
 
-
 #nav {
-    background-color: palevioletred;
+    font-family:'Shadows Into Light', cursive;
+    background-color: antiquewhite;
     text-align:left;
-    padding: 20px 0;
+    font-size: 25px;
+    color: white;
+    padding-bottom: 10px;
+    word-spacing: 5.5em;
+    margin: 0;
+    
 }
 
-#logo {max-height: 50px;
-padding-right: 300px;}
+a{
+text-decoration: none;
+color: white;
+}
+
+a:visited{
+text-decoration: none;
+    color: black;}
 
 
-body {background-color: beige;}
+#logo {max-height: 40px;
+padding-right: 40px;
+padding-left: 20px;
+padding-top: 10px;
+}
+
+
+
+body {background-color: beige;
+background-image: url(resources/IMG_0416.JPG);
+    background-position: center 20px, left top;
+    background-repeat: no-repeat;
+    background-size: 1300px, auto;
+}
+
+h3 {font-family:'Shadows Into Light', cursive;
+color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+#about {background-color: gray;
+    margin-top: 600px;
+    margin-left: 40px;
+    margin-right: 40px;
+    text-align: center;
+    padding: 20px;
+}
