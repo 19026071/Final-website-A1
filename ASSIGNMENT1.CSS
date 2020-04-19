@@ -18,7 +18,7 @@ color: white;
 
 a:visited{
 text-decoration: none;
-    color: black;}
+    color: white;}
 
 
 #logo {max-height: 40px;
@@ -36,10 +36,36 @@ background-image: url(resources/IMG_0416.JPG);
     background-size: 1300px, auto;
 }
 
-h3 {font-family:'Shadows Into Light', cursive;
+h2 {font-family:'Shadows Into Light', cursive;
 color: white;
     text-align: center;
     padding: 10px;
+}
+
+
+h1 {
+    font-size: 70px;
+    color: white;
+    padding: 20px;
+}
+
+#header {
+text-align: center;
+    margin: auto;
+    margin-top: 70px;
+    color: antiquewhite;
+    font-size: 30px;
+}
+
+.contact {
+    background-color: #E43;
+    border: 2px #E43;
+    border-radius: 2em;
+    color: #FFF;
+    display: inline-block;
+    font-weight: bold;
+    margin-top: 25px;
+    padding: 15px 30px;
 }
 
 #about {background-color: gray;
@@ -48,4 +74,18 @@ color: white;
     margin-right: 40px;
     text-align: center;
     padding: 20px;
+}
+
+#about p {
+    color: white;
+    margin: 50px;
+padding-left: 100px;
+padding-right: 100px;}
+
+#footer {
+    background-color: antiquewhite;
+    text-align: center;
+    color: white;
+    padding: 10px;
+    margin-top: 50px;
 }
