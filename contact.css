@@ -1,11 +1,56 @@
 #nav {
-    background-color: palevioletred;
+    font-family:'Shadows Into Light', cursive;
+    background-color: antiquewhite;
     text-align:left;
-    padding: 20px 0;
+    font-size: 25px;
+    color: white;
+    padding-bottom: 10px;
+    word-spacing: 5.5em;
+    margin: 0;
+    
 }
 
-#logo {max-height: 50px;
-padding-right: 300px;}
+a{
+text-decoration: none;
+color: white;
+}
+
+a:visited{
+text-decoration: none;
+    color: white;}
+
+
+#logo {max-height: 40px;
+padding-right: 40px;
+padding-left: 20px;
+padding-top: 10px;
+}
+
+
+h2 {font-family:'Shadows Into Light', cursive;
+color: white;
+    text-align: center;
+    padding: 10px;
+    font-size: 70px;
+}
 
 
 body {background-color: beige;}
+
+#contact p {color: white;
+text-align: left;
+font-size: 30px;
+margin-left: 500px;}
+
+
+#footer {
+    background-color: antiquewhite;
+    text-align: center;
+    color: white;
+    padding: 10px;
+    margin-top: 50px;
+}
+
+
+
+
