@@ -1,23 +1,24 @@
 #nav {
     font-family:'Shadows Into Light', cursive;
-    background-color: antiquewhite;
+    background-color: blanchedalmond;
     text-align:left;
     font-size: 25px;
-    color: white;
     padding-bottom: 10px;
     word-spacing: 5.5em;
     margin: 0;
-    
+    position: fixed;
+    top: 0;
+    width: 100%;
 }
 
 a{
 text-decoration: none;
-color: white;
+color: #4C4334;
 }
 
 a:visited{
 text-decoration: none;
-    color: white;}
+   color: #4C4334;}
 
 
 #logo {max-height: 40px;
@@ -27,26 +28,41 @@ padding-top: 10px;
 }
 
 
-h2 {font-family:'Shadows Into Light', cursive;
+h2 {font-family:'Roboto Slab', serif;
 color: white;
     text-align: center;
-    padding: 10px;
+    margin-top: 100px;
     font-size: 70px;
 }
 
+h3 {
+    font-family:'Shadows Into Light', cursive;
+    color: white;
+    text-align: center;
+    font-size: 30px;
+    margin: 0;
+    padding-bottom: 50px;
+}
 
-body {background-color: beige;}
+body {background-color: #4C4334;
+margin: 0;
+background-image: url(resources/DSC_0086copy.jpg);
+background-repeat: no-repeat;
+background-size: 1300px, auto;}
 
-#contact p {color: saddlebrown;
+#contact p {
+    font-family:'Roboto Slab', serif;
+    color: white;
 text-align: left;
 font-size: 30px;
 margin-left: 500px;}
 
 
 #footer {
-    background-color: antiquewhite;
+    font-family: 'Roboto Slab', serif;
+    background-color: blanchedalmond;
     text-align: center;
-    color: white;
+    color: #4C4334;
     padding: 10px;
     margin-top: 50px;
 }
