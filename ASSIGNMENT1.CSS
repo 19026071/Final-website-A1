@@ -1,24 +1,25 @@
 
 #nav {
     font-family:'Shadows Into Light', cursive;
-    background-color: antiquewhite;
+    background-color: blanchedalmond;
     text-align:left;
     font-size: 25px;
-    color: white;
     padding-bottom: 10px;
     word-spacing: 5.5em;
     margin: 0;
-    
+    position: fixed;
+    top: 0;
+    width: 100%;
 }
 
 a{
 text-decoration: none;
-color: white;
+color: #4C4334;
 }
 
 a:visited{
 text-decoration: none;
-    color: white;}
+   color: #4C4334;}
 
 
 #logo {max-height: 40px;
@@ -29,37 +30,54 @@ padding-top: 10px;
 
 
 
-body {background-color: beige;
+body {background-color: #4C4334;
 background-image: url(resources/DSC_0081.jpg);
     background-position: center 20px, left top;
     background-repeat: no-repeat;
     background-size: 1300px, auto;
+    margin: 0;
 }
 
 h2 {font-family:'Shadows Into Light', cursive;
 color: white;
     text-align: center;
-    padding: 10px;
+    font-size: 50px;
 }
 
 
 h1 {
-    font-size: 70px;
+    font-family: 'Roboto Slab', serif;
+    font-size: 80px;
     color: white;
-    padding: 20px;
+    font-weight: 100;
+    padding: 50px;
 }
 
 #header {
-text-align: center;
+    font-family: 'Roboto Slab', serif;
+    text-align: center;
     margin: auto;
     margin-top: 70px;
-    color: antiquewhite;
+    color: #FAD8B1;
     font-size: 30px;
 }
 
 .contact {
-    background-color: #E43;
-    border: 2px #E43;
+    font-family: 'Roboto Slab', serif;
+    background-color: white;
+    border: 1px #EB8F3D;
+    border-radius: 2em;
+    color: #FFF;
+    display: inline-block;
+    font-weight: bold;
+    margin-top: 15px;
+    padding: 15px 30px;
+}
+
+.worklink {
+    font-family: 'Roboto Slab', serif;
+     background-color: white;
+    border: 1px #EB8F3D;
     border-radius: 2em;
     color: #FFF;
     display: inline-block;
@@ -68,8 +86,8 @@ text-align: center;
     padding: 15px 30px;
 }
 
-#about {background-color: gray;
-    margin-top: 600px;
+#about {background-color: blanchedalmond;
+    margin-top: 400px;
     margin-left: 40px;
     margin-right: 40px;
     text-align: center;
@@ -77,15 +95,18 @@ text-align: center;
 }
 
 #about p {
-    color: white;
-    margin: 50px;
-padding-left: 100px;
-padding-right: 100px;}
+    font-family: 'Roboto Slab', serif;
+    color: #4C4334;
+    font-size: 20px;
+    margin: 40px;
+    padding-left: 100px;
+    padding-right: 100px;}
 
 #footer {
-    background-color: antiquewhite;
+    font-family: 'Roboto Slab', serif;
+    background-color: blanchedalmond;
     text-align: center;
-    color: white;
+    color: #4C4334;
     padding: 10px;
     margin-top: 50px;
 }
