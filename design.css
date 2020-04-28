@@ -29,15 +29,45 @@ padding-top: 10px;
 }
 
 
-body {background-color: #4C4334; background-image: url(resources/texture.jpg); background-size: 1500px; background-repeat: repeat-x,}
+body {background-color: #4C4334; 
+  /*  background-image: url(resources/texture.jpg); */
+    background-size: 1500px; 
+    margin: 0;
+} 
 
-h1 {color: blanchedalmond; margin-bottom: 70px; text-align: center; font-weight: bold; font-family: 'Shadows Into Light', cursive; margin-top: 180px;}
+.parallax {
+  background-image: url(resources/texture.jpg);
+  height: 2000px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
 
-    #teendriving {margin-left: 250px; margin-right: 250px;}
-    #teendriving p {text-align: center;
+h1 {color: blanchedalmond;
+    margin-bottom: 70px;
+    text-align: center; 
+    font-weight: bold; 
+    font-family: 'Shadows Into Light', cursive; 
+    padding-top: 180px;}
+
+    #posters {margin-left: 250px; margin-right: 250px;}
+    #posters p {text-align: center;
         font-family: 'Roboto Slab', serif;
         color: white;}
-    #teendriving img {max-height: 200px;}
+    #posters img {max-height: 250px;}
+
+#websites {margin-left: 250px; margin-right: 250px; margin-top: 100px;}
+#websites img {max-height: 170px;}
+#websites p {text-align: center;
+        font-family: 'Roboto Slab', serif;
+        color: white;}
+
+#magazines {margin-left: 250px; margin-right: 250px; margin-top: 100px;}
+#magazines img {max-height: 170px;}
+#magazines p {text-align: center;
+        font-family: 'Roboto Slab', serif;
+        color: white;}
 
 #footer {
     font-family: 'Roboto Slab', serif;
@@ -45,5 +75,5 @@ h1 {color: blanchedalmond; margin-bottom: 70px; text-align: center; font-weight:
     text-align: center;
     color: #4C4334;
     padding: 10px;
-    margin-top: 50px;
+    
 }
