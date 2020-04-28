@@ -1,11 +1,49 @@
 #nav {
-    background-color: palevioletred;
+    
+    font-family:'Shadows Into Light', cursive;
+    background-color: blanchedalmond;
     text-align:left;
-    padding: 20px 0;
+    font-size: 25px;
+    padding-bottom: 10px;
+    word-spacing: 5.5em;
+    margin: auto;
+    position: fixed;
+    top: 0;
+    width: 100%;
 }
 
-#logo {max-height: 50px;
-padding-right: 300px;}
+a{
+text-decoration: none;
+color: #4C4334;
+}
+
+a:visited{
+text-decoration: none;
+   color: #4C4334;}
 
 
-body {background-color: beige;}
+#logo {max-height: 40px;
+padding-right: 40px;
+padding-left: 20px;
+padding-top: 10px;
+}
+
+
+body {background-color: #4C4334; background-image: url(resources/texture.jpg); background-size: 1500px; background-repeat: repeat-x,}
+
+h1 {color: blanchedalmond; margin-bottom: 70px; text-align: center; font-weight: bold; font-family: 'Shadows Into Light', cursive; margin-top: 180px;}
+
+    #teendriving {margin-left: 250px; margin-right: 250px;}
+    #teendriving p {text-align: center;
+        font-family: 'Roboto Slab', serif;
+        color: white;}
+    #teendriving img {max-height: 200px;}
+
+#footer {
+    font-family: 'Roboto Slab', serif;
+    background-color: blanchedalmond;
+    text-align: center;
+    color: #4C4334;
+    padding: 10px;
+    margin-top: 50px;
+}
