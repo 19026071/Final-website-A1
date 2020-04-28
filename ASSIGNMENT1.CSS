@@ -23,7 +23,7 @@ text-decoration: none;
    color: #4C4334;}
 
 
-#logo {max-height: 40px;
+#logo {max-height: 35px;
 padding-right: 40px;
 padding-left: 20px;
 padding-top: 20px;
@@ -32,12 +32,25 @@ padding-top: 20px;
 
 
 body {background-color: #4C4334;
-background-image: url(resources/DSC_0081.jpg);
+/* background-image: url(resources/DSC_0081.jpg); */
     background-position: center 20px, left top;
     background-repeat: no-repeat;
     background-size: 1300px, auto;
     margin: 0;
 }
+
+.parallax {
+  background-image: url(resources/DSC_0081.jpg);
+  height: 1200px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+
+
+
 
 h2 {font-family:'Shadows Into Light', cursive;
 color: white;
@@ -51,7 +64,8 @@ h1 {
     font-size: 80px;
     color: white;
     font-weight: 100;
-    padding: 50px;
+    padding-top: 100px;
+    padding-bottom: 30px;
 }
 
 #header {
@@ -64,18 +78,58 @@ h1 {
 }
 
 .contact {
+  position: relative;
+  width: 15%;
     font-family: 'Roboto Slab', serif;
     background-color: white;
-    border: 1px #EB8F3D;
+    border: 1px #FFF;
     border-radius: 2em;
-    color: #FFF;
+    color: #4C4334;
     display: inline-block;
     font-weight: bold;
     margin-top: 15px;
     padding: 15px 30px;
 }
 
-.worklink {
+.text { 
+   position: relative;
+  width: 100%;
+    font-family: 'Roboto Slab', serif;
+    color: white;
+    display: inline-block;
+    font-weight: bold;
+    padding: 15px 30px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);} 
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: saddlebrown;
+    border: 1px #ffebcd;
+    border-radius: 2em;
+}
+
+.contact:hover .overlay {
+  opacity: 0.4;
+}
+
+
+
+
+
+
+
+/*.worklink {
     font-family: 'Roboto Slab', serif;
      background-color: white;
     border: 1px #EB8F3D;
@@ -85,14 +139,14 @@ h1 {
     font-weight: bold;
     margin-top: 25px;
     padding: 15px 30px;
-}
+} */
 
 #about {background-color: blanchedalmond;
-    margin-top: 400px;
     margin-left: 40px;
     margin-right: 40px;
     text-align: center;
     padding: 20px;
+    margin-top: 300px;
 }
 
 #about p {
@@ -109,5 +163,4 @@ h1 {
     text-align: center;
     color: #4C4334;
     padding: 10px;
-    margin-top: 50px;
 }
