@@ -33,6 +33,7 @@ color: white;
     text-align: center;
     margin-top: 100px;
     font-size: 70px;
+    margin-bottom: 0;
 }
 
 h3 {
@@ -41,7 +42,7 @@ h3 {
     text-align: center;
     font-size: 30px;
     margin: 0;
-    padding-bottom: 50px;
+    padding-bottom: 60px;
 }
 
 body {background-color: #4C4334;
@@ -50,12 +51,19 @@ background-image: url(resources/DSC_0086copy.jpg);
 background-repeat: no-repeat;
 background-size: 1300px, auto;}
 
-#contact p {
+
+.contact {
+    display: flex;
+  justify-content: left;
+  align-items: center;
+    max-width: 400px;
+    margin: auto;
     font-family:'Roboto Slab', serif;
     color: white;
-text-align: left;
 font-size: 30px;
-margin-left: 500px;}
+    padding-bottom: 50px;
+}
+
 
 
 #footer {
@@ -67,6 +75,9 @@ margin-left: 500px;}
     margin-top: 50px;
 }
 
+
+
+.icons {max-height: 60px; padding-right: 15px;}
 
 
 
