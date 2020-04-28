@@ -59,10 +59,19 @@ background-size: 1300px, auto;}
     max-width: 400px;
     margin: auto;
     font-family:'Roboto Slab', serif;
-    color: white;
+    color: blanchedalmond;
 font-size: 30px;
     padding-bottom: 50px;
 }
+
+.contact a{
+text-decoration: none;
+color: blanchedalmond;
+}
+
+.contact a:visited{
+text-decoration: none;
+   color: blanchedalmond;}
 
 
 

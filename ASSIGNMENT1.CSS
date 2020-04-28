@@ -1,16 +1,19 @@
 
 #nav {
-    
-    font-family:'Shadows Into Light', cursive;
     background-color: blanchedalmond;
-    text-align:left;
-    font-size: 25px;
-    padding-bottom: 10px;
-    word-spacing: 5.5em;
-    margin: auto;
     position: fixed;
     top: 0;
     width: 100%;
+}
+
+#links {font-family:'Shadows Into Light', cursive;
+font-size: 2.5vw;
+    padding-bottom: 10px;
+    padding-left: 50px;
+    word-spacing: 5.5em;
+    margin: auto;
+    text-align:left;
+    display: inline-block;
 }
 
 a{
@@ -53,17 +56,16 @@ body {background-color: #4C4334;
 
 
 h2 {font-family:'Shadows Into Light', cursive;
-color: white;
+color: #4C4334;
     text-align: center;
-    font-size: 50px;
+    font-size: 5vw;
 }
 
 
 h1 {
     font-family: 'Roboto Slab', serif;
-    font-size: 80px;
+    font-size: 7vw;
     color: white;
-    font-weight: 100;
     padding-top: 100px;
     padding-bottom: 30px;
 }
@@ -74,7 +76,7 @@ h1 {
     margin: auto;
     margin-top: 70px;
     color: #FAD8B1;
-    font-size: 30px;
+    font-size: 3vw;
 }
 
 .contact {
@@ -124,22 +126,6 @@ h1 {
 }
 
 
-
-
-
-
-
-/*.worklink {
-    font-family: 'Roboto Slab', serif;
-     background-color: white;
-    border: 1px #EB8F3D;
-    border-radius: 2em;
-    color: #FFF;
-    display: inline-block;
-    font-weight: bold;
-    margin-top: 25px;
-    padding: 15px 30px;
-} */
 
 #about {background-color: blanchedalmond;
     margin-left: 40px;

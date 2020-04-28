@@ -37,37 +37,38 @@ body {background-color: #4C4334;
 
 .parallax {
   background-image: url(resources/texture.jpg);
-  height: 2000px;
+  height: 1500px;
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
 }
 
-h1 {color: blanchedalmond;
-    margin-bottom: 70px;
+h1 {color: white;
+    margin-bottom: 50px;
     text-align: center; 
     font-weight: bold; 
     font-family: 'Shadows Into Light', cursive; 
-    padding-top: 180px;}
+    padding-top: 150px;
+    font-size: 50px;}
 
     #posters {margin-left: 250px; margin-right: 250px;}
     #posters p {text-align: center;
         font-family: 'Roboto Slab', serif;
-        color: white;}
+        color: blanchedalmond;}
     #posters img {max-height: 250px;}
 
 #websites {margin-left: 250px; margin-right: 250px; margin-top: 100px;}
 #websites img {max-height: 170px;}
 #websites p {text-align: center;
         font-family: 'Roboto Slab', serif;
-        color: white;}
+        color: blanchedalmond;}
 
 #magazines {margin-left: 250px; margin-right: 250px; margin-top: 100px;}
 #magazines img {max-height: 170px;}
 #magazines p {text-align: center;
         font-family: 'Roboto Slab', serif;
-        color: white;}
+        color: blanchedalmond;}
 
 #footer {
     font-family: 'Roboto Slab', serif;
