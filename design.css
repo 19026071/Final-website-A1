@@ -1,15 +1,19 @@
 #nav {
-    
-    font-family:'Shadows Into Light', cursive;
     background-color: blanchedalmond;
-    text-align:left;
-    font-size: 25px;
-    padding-bottom: 10px;
-    word-spacing: 5.5em;
-    margin: auto;
     position: fixed;
     top: 0;
     width: 100%;
+    max-height: 80px;
+}
+
+#links {font-family:'Shadows Into Light', cursive;
+font-size: 2.3vw;
+    padding-bottom: 10px;
+    padding-left: 50px;
+    word-spacing: 5.5em;
+   margin: auto;
+    text-align:center;
+    display: inline-block; 
 }
 
 a{
@@ -22,18 +26,28 @@ text-decoration: none;
    color: #4C4334;}
 
 
-#logo {max-height: 40px;
+#logo { max-height: 35px; 
+    width: auto;
+  /* max-width: 100%; */
 padding-right: 40px;
 padding-left: 20px;
-padding-top: 10px;
+padding-top: 20px;
+} 
+
+@media screen and (max-width: 900px) {
+  #logo {
+    max-height: 20px;
+    padding-right: 20px;
+    padding-left: 10px;
+    padding-top: 10px;}
+    img {max-height: 50%;}
+    .parallax {margin: auto; height: 3000px;}
 }
 
-
 body {background-color: #4C4334; 
-  /*  background-image: url(resources/texture.jpg); */
-    background-size: 1500px; 
     margin: 0;
 } 
+
 
 .parallax {
   background-image: url(resources/texture.jpg);
@@ -44,31 +58,39 @@ body {background-color: #4C4334;
   background-size: cover;
 }
 
+
 h1 {color: white;
     margin-bottom: 50px;
     text-align: center; 
     font-weight: bold; 
     font-family: 'Shadows Into Light', cursive; 
     padding-top: 150px;
-    font-size: 50px;}
+    font-size: 4.5vw;}
 
-    #posters {margin-left: 250px; margin-right: 250px;}
+    #posters {margin-left: 250px; margin-right: 250px;} 
+     #posters img {max-height: 250px;} 
     #posters p {text-align: center;
         font-family: 'Roboto Slab', serif;
-        color: blanchedalmond;}
-    #posters img {max-height: 250px;}
+        color: blanchedalmond;
+        font-size: 1.5vw;
+        padding-bottom: 30px;}
 
-#websites {margin-left: 250px; margin-right: 250px; margin-top: 100px;}
+
+ #websites {margin-left: 250px; margin-right: 250px; margin-top: 100px;} 
 #websites img {max-height: 170px;}
 #websites p {text-align: center;
         font-family: 'Roboto Slab', serif;
-        color: blanchedalmond;}
+        color: blanchedalmond;
+font-size: 1.5vw;
+margin: auto;}
 
-#magazines {margin-left: 250px; margin-right: 250px; margin-top: 100px;}
+ #magazines {margin-left: 250px; margin-right: 250px; margin-top: 100px;} 
 #magazines img {max-height: 170px;}
 #magazines p {text-align: center;
         font-family: 'Roboto Slab', serif;
-        color: blanchedalmond;}
+        color: blanchedalmond;
+font-size: 1.5vw;
+margin: auto;}
 
 #footer {
     font-family: 'Roboto Slab', serif;
@@ -76,5 +98,6 @@ h1 {color: white;
     text-align: center;
     color: #4C4334;
     padding: 10px;
+    font-size: 1vw;
     
 }

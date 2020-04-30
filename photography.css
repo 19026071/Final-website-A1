@@ -1,15 +1,19 @@
 #nav {
-    
-    font-family:'Shadows Into Light', cursive;
     background-color: blanchedalmond;
-    text-align:left;
-    font-size: 25px;
-    padding-bottom: 10px;
-    word-spacing: 5.5em;
-    margin: auto;
     position: fixed;
     top: 0;
     width: 100%;
+    max-height: 80px;
+}
+
+#links {font-family:'Shadows Into Light', cursive;
+font-size: 2.3vw;
+    padding-bottom: 10px;
+    padding-left: 50px;
+    word-spacing: 5.5em;
+   margin: auto;
+    text-align:center;
+    display: inline-block; 
 }
 
 a{
@@ -22,12 +26,23 @@ text-decoration: none;
    color: #4C4334;}
 
 
-#logo {max-height: 40px;
+#logo { max-height: 35px; 
+    width: auto;
+  /* max-width: 100%; */
 padding-right: 40px;
 padding-left: 20px;
-padding-top: 10px;
-}
+padding-top: 20px;
+} 
 
+@media screen and (max-width: 900px) {
+  #logo {
+    max-height: 20px;
+    padding-right: 20px;
+    padding-left: 10px;
+    padding-top: 10px;}
+    img {max-height: 50%;}
+    .parallax {margin: auto;}
+}
 
 
 body {background-color: #4C4334;
@@ -48,17 +63,17 @@ h1 {color: white;
     font-weight: bold; 
     font-family: 'Shadows Into Light', cursive; 
     padding-top: 120px;
-    font-size: 50px;
+    font-size: 4.5vw;
 }
 
     #carshoot {margin-left: 250px; margin-right: 250px;}
-    #carshoot img {max-height: 200px; }
+    #carshoot img {max-height: 200px;}
     #carshoot p {text-align: center;
         font-family: 'Roboto Slab', serif;
-        color: blanchedalmond;}
+        color: blanchedalmond; font-size: 1.5vw}
 
     #enviroshoot {margin-left: 250px; margin-right: 250px;}
-    #enviroshoot p {text-align: center; font-family: 'Roboto Slab', serif; color: blanchedalmond;}
+    #enviroshoot p {text-align: center; font-family: 'Roboto Slab', serif; color: blanchedalmond; font-size: 1.5vw}
     #enviroshoot img{max-height: 247px;}
     #enviroshoot2 {margin-left: 250px; margin-right: 250px;}
     #enviroshoot2 img{max-height: 150px;}
@@ -69,5 +84,6 @@ h1 {color: white;
     text-align: center;
     color: #4C4334;
     padding: 10px;
+    font-size: 1vw;
 }
 

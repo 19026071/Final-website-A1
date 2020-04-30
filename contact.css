@@ -1,14 +1,19 @@
 #nav {
-    font-family:'Shadows Into Light', cursive;
     background-color: blanchedalmond;
-    text-align:left;
-    font-size: 25px;
-    padding-bottom: 10px;
-    word-spacing: 5.5em;
-    margin: 0;
     position: fixed;
     top: 0;
     width: 100%;
+    max-height: 80px;
+}
+
+#links {font-family:'Shadows Into Light', cursive;
+font-size: 2.3vw;
+    padding-bottom: 10px;
+    padding-left: 50px;
+    word-spacing: 5.5em;
+   margin: auto;
+    text-align:center;
+    display: inline-block; 
 }
 
 a{
@@ -21,12 +26,22 @@ text-decoration: none;
    color: #4C4334;}
 
 
-#logo {max-height: 40px;
+#logo { max-height: 35px; 
+    width: auto;
+  /* max-width: 100%; */
 padding-right: 40px;
 padding-left: 20px;
-padding-top: 10px;
-}
+padding-top: 20px;
+} 
 
+@media screen and (max-width: 900px) {
+  #logo {
+    max-height: 20px;
+    padding-right: 20px;
+    padding-left: 10px;
+    padding-top: 10px;
+  }
+}
 
 h2 {font-family:'Roboto Slab', serif;
 color: white;
