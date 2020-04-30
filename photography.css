@@ -41,7 +41,9 @@ padding-top: 20px;
     padding-left: 10px;
     padding-top: 10px;}
     img {max-height: 50%;}
-    .parallax {margin: auto;}
+    .parallax {height: 4000px;}
+     #carshoot p {padding-left: 20px; padding-right: 20px;}
+    #enviroshoot p {padding-left: 20px; padding-right: 20px;}
 }
 
 
@@ -62,21 +64,29 @@ h1 {color: white;
     text-align: center; 
     font-weight: bold; 
     font-family: 'Shadows Into Light', cursive; 
-    padding-top: 120px;
+    padding-top: 130px;
     font-size: 4.5vw;
 }
 
-    #carshoot {margin-left: 250px; margin-right: 250px;}
+    #carshoot {text-align: center;}
     #carshoot img {max-height: 200px;}
     #carshoot p {text-align: center;
         font-family: 'Roboto Slab', serif;
-        color: blanchedalmond; font-size: 1.5vw}
+        color: blanchedalmond; font-size: 1.5vw; 
+        padding-left: 50px;
+        padding-right: 50px;
+padding-bottom: 30px;}
+    #carshoot2 {text-align: center; }
+    #carshoot2 img {max-height: 200px;
+    padding-bottom: 30px;}
 
-    #enviroshoot {margin-left: 250px; margin-right: 250px;}
-    #enviroshoot p {text-align: center; font-family: 'Roboto Slab', serif; color: blanchedalmond; font-size: 1.5vw}
+    #enviroshoot {text-align: center; }
+    #enviroshoot p {text-align: center; font-family: 'Roboto Slab', serif; color: blanchedalmond; font-size: 1.5vw; padding-left: 50px; padding-right: 50px; padding-bottom: 30px;}
     #enviroshoot img{max-height: 247px;}
-    #enviroshoot2 {margin-left: 250px; margin-right: 250px;}
+    #enviroshoot2 {text-align: center;}
     #enviroshoot2 img{max-height: 150px;}
+    #enviroshoot3 {text-align: center;}
+    #enviroshoot3 img{max-height: 150px;}
 
     #footer {
     font-family: 'Roboto Slab', serif;
