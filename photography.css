@@ -6,32 +6,34 @@
     max-height: 80px;
 }
 
-#links {font-family:'Shadows Into Light', cursive;
-font-size: 2.3vw;
+#links {
+    font-family:'Shadows Into Light', cursive;
+    font-size: 2.3vw;
     padding-bottom: 10px;
     padding-left: 50px;
     word-spacing: 5.5em;
-   margin: auto;
+    margin: auto;
     text-align:center;
     display: inline-block; 
 }
 
-a{
-text-decoration: none;
-color: #4C4334;
+a {
+    text-decoration: none;
+    color: #4C4334;
 }
 
-a:visited{
-text-decoration: none;
-   color: #4C4334;}
+a:visited {
+    text-decoration: none;
+    color: #4C4334;
+}
 
 
-#logo { max-height: 35px; 
+#logo { 
+    max-height: 35px; 
     width: auto;
-  /* max-width: 100%; */
-padding-right: 40px;
-padding-left: 20px;
-padding-top: 20px;
+    padding-right: 40px;
+    padding-left: 20px;
+    padding-top: 20px;
 } 
 
 @media screen and (max-width: 900px) {
@@ -39,16 +41,19 @@ padding-top: 20px;
     max-height: 20px;
     padding-right: 20px;
     padding-left: 10px;
-    padding-top: 10px;}
-    img {max-height: 50%;}
-    .parallax {height: 4000px;}
-     #carshoot p {padding-left: 20px; padding-right: 20px;}
-    #enviroshoot p {padding-left: 20px; padding-right: 20px;}
+    padding-top: 10px;
+    }
+img {max-height: 50%;}
+.parallax {height: 4000px;}
+#carshoot p {padding-left: 20px; padding-right: 20px;}
+#enviroshoot p {padding-left: 20px; padding-right: 20px;}
 }
 
 
-body {background-color: #4C4334;
-margin: 0;}
+body {
+    background-color: #4C4334;
+    margin: 0;
+}
 
 .parallax {
   background-image: url(resources/texture.jpg);
@@ -59,7 +64,8 @@ margin: 0;}
   background-size: cover;
 }
 
-h1 {color: white; 
+h1 {
+    color: white; 
     margin-bottom: 50px; 
     text-align: center; 
     font-weight: bold; 
@@ -68,25 +74,55 @@ h1 {color: white;
     font-size: 4.5vw;
 }
 
-    #carshoot {text-align: center;}
-    #carshoot img {max-height: 200px;}
-    #carshoot p {text-align: center;
+    #carshoot {
+        text-align: center;
+}
+    #carshoot img {
+        max-height: 200px;
+}
+    #carshoot p {
+        text-align: center;
         font-family: 'Roboto Slab', serif;
-        color: blanchedalmond; font-size: 1.5vw; 
+        color: blanchedalmond; 
+        font-size: 1.5vw; 
         padding-left: 50px;
         padding-right: 50px;
-padding-bottom: 30px;}
-    #carshoot2 {text-align: center; }
-    #carshoot2 img {max-height: 200px;
-    padding-bottom: 30px;}
+        padding-bottom: 30px;}
+    #carshoot2 {
+        text-align: center; 
+}
+    #carshoot2 img {
+    max-height: 200px;
+    padding-bottom: 30px;
+}
 
-    #enviroshoot {text-align: center; }
-    #enviroshoot p {text-align: center; font-family: 'Roboto Slab', serif; color: blanchedalmond; font-size: 1.5vw; padding-left: 50px; padding-right: 50px; padding-bottom: 30px;}
-    #enviroshoot img{max-height: 247px;}
-    #enviroshoot2 {text-align: center;}
-    #enviroshoot2 img{max-height: 150px;}
-    #enviroshoot3 {text-align: center;}
-    #enviroshoot3 img{max-height: 150px;}
+    #enviroshoot {
+        text-align: center;
+}
+    #enviroshoot p {
+        text-align: center;
+        font-family: 'Roboto Slab', serif;
+        color: blanchedalmond;
+        font-size: 1.5vw;
+        padding-left: 50px;
+        padding-right: 50px;
+        padding-bottom: 30px;
+}
+    #enviroshoot img {
+        max-height: 247px;
+}
+    #enviroshoot2 {
+        text-align: center;
+}
+    #enviroshoot2 img {
+        max-height: 150px;
+}
+    #enviroshoot3 {
+        text-align: center;
+}
+    #enviroshoot3 img {
+        max-height: 150px;
+}
 
     #footer {
     font-family: 'Roboto Slab', serif;

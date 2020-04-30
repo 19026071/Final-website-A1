@@ -6,48 +6,51 @@
     max-height: 80px;
 }
 
-#links {font-family:'Shadows Into Light', cursive;
-font-size: 2.3vw;
+#links {
+    font-family:'Shadows Into Light', cursive;
+    font-size: 2.3vw;
     padding-bottom: 10px;
     padding-left: 50px;
     word-spacing: 5.5em;
-   margin: auto;
+    margin: auto;
     text-align:center;
     display: inline-block; 
 }
 
-a{
-text-decoration: none;
-color: #4C4334;
+a {
+    text-decoration: none;
+    color: #4C4334;
 }
 
-a:visited{
-text-decoration: none;
-   color: #4C4334;}
+a:visited {
+    text-decoration: none;
+    color: #4C4334;
+}
 
 
-#logo { max-height: 35px; 
+#logo { 
+    max-height: 35px; 
     width: auto;
-  /* max-width: 100%; */
-padding-right: 40px;
-padding-left: 20px;
-padding-top: 20px;
+    padding-right: 40px;
+    padding-left: 20px;
+    padding-top: 20px;
 } 
 
 @media screen and (max-width: 900px) {
   #logo {
-    max-height: 20px;
-    padding-right: 20px;
-    padding-left: 10px;
-    padding-top: 10px;}
-   img {max-height: 50%;}
-   #posters p {padding-left: 20px; padding-right: 20px;}
+        max-height: 20px;
+        padding-right: 20px;
+        padding-left: 10px;
+        padding-top: 10px;}
+    img {max-height: 50%;}
+    #posters p {padding-left: 20px; padding-right: 20px;}
     #websites p {padding-left: 20px; padding-right: 20px;}
     #magazines p {padding-left: 20px; padding-right: 20px;}
     .parallax {height: 4000px;}
 }
 
-body {background-color: #4C4334; 
+body {
+    background-color: #4C4334; 
     margin: 0;
 } 
 
@@ -70,30 +73,48 @@ h1 {color: white;
     padding-top: 130px;
     font-size: 4.5vw;}
 
-    #posters {text-align: center;} 
-     #posters img {max-height: 250px; height: 80%;} 
-    #posters p {text-align: center;
+    #posters {
+        text-align: center;
+} 
+    #posters img {
+        max-height: 250px;
+} 
+    #posters p {
+        text-align: center;
         font-family: 'Roboto Slab', serif;
         color: blanchedalmond;
         font-size: 1.5vw;
         padding-bottom: 30px;
-padding-left: 50px;
-padding-right: 50px;}
+        padding-left: 50px;
+        padding-right: 50px;
+}
 
 
- #websites {text-align: center; margin-top: 100px;} 
-#websites img {max-height: 170px;}
-#websites p {text-align: center;
+    #websites {
+        text-align: center; margin-top: 100px;
+} 
+    #websites img {
+        max-height: 170px;
+}
+    #websites p {
+        text-align: center;
         font-family: 'Roboto Slab', serif;
         color: blanchedalmond;
-font-size: 1.5vw;}
+        font-size: 1.5vw;
+}
 
- #magazines {text-align: center; margin-top: 100px;} 
-#magazines img {max-height: 170px;}
-#magazines p {text-align: center;
+    #magazines {
+        text-align: center; margin-top: 100px;
+} 
+    #magazines img {
+        max-height: 170px;
+}
+    #magazines p {
+        text-align: center;
         font-family: 'Roboto Slab', serif;
         color: blanchedalmond;
-font-size: 1.5vw;}
+        font-size: 1.5vw;
+}
 
 #footer {
     font-family: 'Roboto Slab', serif;
@@ -102,5 +123,4 @@ font-size: 1.5vw;}
     color: #4C4334;
     padding: 10px;
     font-size: 1vw;
-    
 }

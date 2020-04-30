@@ -6,12 +6,13 @@
     max-height: 80px;
 }
 
-#links {font-family:'Shadows Into Light', cursive;
-font-size: 2.3vw;
+#links {
+    font-family:'Shadows Into Light', cursive;
+    font-size: 2.3vw;
     padding-bottom: 10px;
     padding-left: 50px;
     word-spacing: 5.5em;
-   margin: auto;
+    margin: auto;
     text-align:center;
     display: inline-block; 
 }
@@ -21,17 +22,18 @@ text-decoration: none;
 color: #4C4334;
 }
 
-a:visited{
+a:visited {
 text-decoration: none;
-   color: #4C4334;}
+   color: #4C4334;
+}
 
 
-#logo { max-height: 35px; 
+#logo { 
+    max-height: 35px; 
     width: auto;
-  /* max-width: 100%; */
-padding-right: 40px;
-padding-left: 20px;
-padding-top: 20px;
+    padding-right: 40px;
+    padding-left: 20px;
+    padding-top: 20px;
 } 
 
 @media screen and (max-width: 900px) {
@@ -43,8 +45,9 @@ padding-top: 20px;
   }
 }
 
-h2 {font-family:'Roboto Slab', serif;
-color: white;
+h2 {
+    font-family:'Roboto Slab', serif;
+    color: white;
     text-align: center;
     margin-top: 100px;
     font-size: 70px;
@@ -60,33 +63,36 @@ h3 {
     padding-bottom: 60px;
 }
 
-body {background-color: #4C4334;
-margin: 0;
-background-image: url(resources/DSC_0086copy.jpg);
-background-repeat: no-repeat;
-background-size: 1300px, auto;}
+body {
+    background-color: #4C4334;
+    margin: 0;
+    background-image: url(resources/DSC_0086copy.jpg);
+    background-repeat: no-repeat;
+    background-size: 1300px, auto;
+}
 
 
 .contact {
     display: flex;
-  justify-content: left;
-  align-items: center;
+    justify-content: left;
+    align-items: center;
     max-width: 400px;
     margin: auto;
     font-family:'Roboto Slab', serif;
     color: blanchedalmond;
-font-size: 30px;
+    font-size: 30px;
     padding-bottom: 50px;
 }
 
-.contact a{
-text-decoration: none;
-color: blanchedalmond;
+.contact a {
+    text-decoration: none;
+    color: blanchedalmond;
 }
 
-.contact a:visited{
-text-decoration: none;
-   color: blanchedalmond;}
+.contact a:visited {
+    text-decoration: none;
+    color: blanchedalmond;
+}
 
 
 
@@ -98,8 +104,6 @@ text-decoration: none;
     padding: 10px;
     margin-top: 50px;
 }
-
-
 
 .icons {max-height: 60px; padding-right: 15px;}
 
